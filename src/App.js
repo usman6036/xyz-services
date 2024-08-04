@@ -8,20 +8,22 @@ import Comparesection from './components/Comparesection';
 import Ourteam from './components/Ourteam';
 import Testimonialas from './components/Testimonialas';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Howitworks from './components/Howitworks';
+import Home from './components/Home';
+import BookingForm from './components/product/BookingForm';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Welcomeservices/>
-    <Chooseus/>
-    <Howitworks/>
-    <Comparesection/>
-    <Ourteam/>
-    <Testimonialas/>
-    <Footer/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path='/booking-form' element={<BookingForm />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
