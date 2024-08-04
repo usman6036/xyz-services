@@ -1,38 +1,167 @@
-.App {
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
   text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar_navlinks{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar_navlinks:hover{
+  color: #22EB8B;
+  background-color: aliceblue;
+  opacity: 50%;
+  border-radius: 8px;
+}
+.upper_bg_border{
+  width: 100%;
+  height: 3px;
+  background-color: #22EB8B;
+}
+.trusted_partner_h3{
   color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.hero_bg{
+  background-color: #265E26;
 }
 
-.App-link {
-  color: #61dafb;
+.trusted_partner_h3_cleaning{
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.trusted_partner_h3_info{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+.form_bg{
+  background-color: white;
+  border-radius: 8px;
+}
+.submit_form_btn{
+  color: white !important;
+  background-color: #63F763 !important;
+  font-size: 18px !important;
+  margin-top: 12px !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  width: 100% !important;
+}
+.half_text_color{
+  color: #59F763;
+}
+.welcome_bg{
+  background-color: #F4F4F4;
+}
+.welcome_h3_info{
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+}
+.welcome_p{
+  color: black;
+  font-size: 1.2em;  
+  font-weight: 400;
+}
+.welcome_p_li{
+  color: black;
+  font-size: 1em;  
+  font-weight: 400;
+}
+.welcome_p_li_b{
+  color: black;
+  font-size: 1em;  
+  font-weight: 700;
+}
+.our_team_bg{
+  background-color: #F4F4F4;
+}
+.copyright_border{
+  border-top: 1px solid #22EB8B;
+}
+.howit_h4{
+  color: black;
+  font-size: 1.3em;  
+  font-weight: 700;
+}
+.works_box{
+  border: 1px solid #22EB8B;
+  border-radius: 8px;
+  background-color: white;
 }
